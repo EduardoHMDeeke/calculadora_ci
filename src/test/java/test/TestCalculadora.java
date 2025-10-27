@@ -1,8 +1,8 @@
-package src.test;
+package src.test.java.test;
 
 import org.junit.jupiter.api.Test;
 
-import src.calculadora.Calculadora;
+import src.main.java.calculadora.Calculadora;
 
 import static org.junit.jupiter.api.Assertions.*;
 

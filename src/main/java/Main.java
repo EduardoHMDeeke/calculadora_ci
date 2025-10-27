@@ -1,8 +1,8 @@
-package src.main;
+package src.main.java;
 
 import javax.swing.JOptionPane;
 
-import src.calculadora.Calculadora;
+import src.main.java.calculadora.Calculadora;
 
 public class Main {
     public static void main(String[] args) {
