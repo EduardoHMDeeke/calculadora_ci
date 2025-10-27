@@ -8,7 +8,7 @@ public class Calculadora {
         this(0.0, 0.0);
     }
 
-    public Calculadora(double valor, double valorB) {
+    public Calculadora(double valorA, double valorB) {
         setValorA(valorA);
         setValorB(valorB);
     }
