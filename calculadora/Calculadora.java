@@ -1,14 +1,14 @@
 package calculadora;
 
-public class Main {
+public class Calculadora {
     private double valorA;
     private double valorB;
 
-    public Main() {
+    public Calculadora() {
         this(0.0, 0.0);
     }
 
-    public Main(double valor, double valorB) {
+    public Calculadora(double valor, double valorB) {
         setValorA(valorA);
         setValorB(valorB);
     }
