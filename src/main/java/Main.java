@@ -1,8 +1,8 @@
-package main;
+package src.main;
 
 import javax.swing.JOptionPane;
 
-import calculadora.Calculadora;
+import src.calculadora.Calculadora;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,11 +10,8 @@ public class Main {
         Calculadora calc = new Calculadora();
 
         while (!opcao.equals("9")) {
-            opcao = JOptionPane.showInputDialog("1 - Leitura \\n" +
-                    "2 - Adição \\n" +
-                    "3 Subtração + \"\\n" +
-                    "4 Multiplicação n5 - Divisão \\n" +
-                    "9 Sair");
+            opcao = JOptionPane.showInputDialog("1 - Leitura \\n 2 - Adição \\n 3 - Subtração \\n 4 - Multiplicação \\n 5 - Divisão \\n 9 - Sair");
+
             switch (Integer.parseInt(opcao)) {
                 case 1: {
                     calc.setValorA(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor A: ")));
