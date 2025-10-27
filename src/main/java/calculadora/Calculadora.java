@@ -1,4 +1,4 @@
-package src.main.java.calculadora;
+package calculadora;
 
 public class Calculadora {
     private double valorA;

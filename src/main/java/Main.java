@@ -2,7 +2,7 @@ package src.main.java;
 
 import javax.swing.JOptionPane;
 
-import src.main.java.calculadora.Calculadora;
+import calculadora.Calculadora;
 
 public class Main {
     public static void main(String[] args) {
