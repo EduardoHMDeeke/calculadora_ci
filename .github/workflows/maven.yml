@@ -63,7 +63,7 @@ jobs:
 
     environment:
       name: prd
-      needs: build-hmg
+    needs: build-hmg
 
     steps:
     - name: Realiza o checkout do repositório
